@@ -1,0 +1,4 @@
+gmmix/log
+gmmix/wandb
+gmmix/clip_mod_sph_weight.pt
+gmmix/__pycache__

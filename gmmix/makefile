@@ -1,0 +1,2 @@
+run:
+	python clip_mod_sph.py --dataset flickr --name ${date}_${note}_FT >& ${logfolder}/log_FT.log & python clip_mod_sph.py --dataset flickr --neg_mix --mmmix=1.0      --name ${date}_${note}_MM >& ${logfolder}/log_MM.log
